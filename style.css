@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.fContainer {
+    display: flex;
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+ 
+.lastname {
+    color: rgb(177, 135, 79);
+    padding: 4px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navigation > li > a:hover {
+    color:rgb(177, 135, 79);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation > li > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.navigation > li > img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all 0.5s ease-in-out;
+}
+
+.content {
+    background-image: url(asset/background.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content .text {
+    color:white;
+    margin-left: 25px;
+}
+
+.content > .text > h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(177, 135, 79);
+    text-align: left;
+}
+.text > p {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3498db;
+}
+
+a:active {
+    color: #3498db;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.kontak {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+  }
+
+  .kontak-item {
+    align-items: center;
+  }
+
+  .gambar {
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+  }
+
+  .caption {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: large;
+  }
+
+footer {
+    padding: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: black;
+}
+
+.manipulasi_dom > h3 {
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.manipulasi_dom > button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
